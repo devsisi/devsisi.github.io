@@ -1,0 +1,1324 @@
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=Raleway:200");
+
+body {
+    margin: 0;
+}
+
+*{
+    font-family: 'Raleway', helvetica;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    height: 625vh;
+    width: 100%;
+    font-family: helvetica;
+
+}
+
+header{
+    height: 15vh;
+    background: rgb(4, 53, 53);
+    font-family: helvetica;
+
+
+}
+
+h4{
+    text-align: center;
+    color: #fff;
+    letter-spacing: 10px;
+}
+
+.nav-contain{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+
+.menu-a{
+    height: 40px;
+    width: 10%;
+   
+}
+
+.menu-b{
+    height: 40px;
+    width: 10%;
+
+}
+
+.menu-c{
+    width: 30%;
+    margin: 0 auto;
+}
+
+ul{
+    padding: 0;
+    list-style: none;
+    margin-top: 0;
+}
+
+.menu-list{
+    display: flex;
+    justify-content: space-between;
+}
+li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 0 15px;
+    font-family: helvetica;
+
+}
+
+li:hover a{
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    height: 10px;
+    width: 20px;
+}
+
+.menu-d{
+    width: 20%;
+    font-size: 20px;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    margin: 0 20px;
+}
+
+.badge:after{
+    content: attr(data-count);
+    background: lightcoral;
+    position: relative;
+    padding: 3px;
+    border-radius: 50%;
+    font-size: 10px;
+    text-align: center;
+    right: 8px;
+    bottom: 13px;
+    font-family: 'raleway';
+    border: none;
+
+}
+
+#section1{
+    height: 100vh;
+    position: relative;
+}
+
+#section1 img{
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+#section1 .image-text{
+    position: absolute;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'raleway';
+    color: white;
+    font-weight: 200;
+    width: 100%;
+    top: 250px;
+    text-transform: uppercase;
+    
+}
+
+.image-text p:first-child{
+    font-size: 30px;
+    text-align: center;
+}
+
+
+span p{
+    display: inline-block;
+}
+
+.active, .li-item:hover{
+    background-color: #fff;
+}
+.li-item{
+    height: 5px;
+    width: 5px;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    margin: 0 20px;
+}
+
+#section2{
+    height: 110vh;
+    display: flex;
+    flex-direction: row;
+    font-family: 'raleway';
+
+    
+}
+
+#aside{
+    width: 45%;
+    height: 110vh;
+    background-color: cornsilk;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+#aside > p{
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(34, 31, 31);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.angle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 5px;
+    font-size: 45px;
+    font-weight: 100;
+    color: rgb(34, 31, 31);
+
+}
+
+.fa-angle-right, 
+.fa-angle-left{
+    margin-top: 100px;
+}
+
+.btn{
+    width: 100px;
+    height: 30px;
+    margin: 100px auto 80px auto;
+    border: none;
+    border-radius: 20px;
+    background: #fff;
+    box-shadow: 0 3px 12px rgba(0,0,0, 0.4); 
+}
+
+#twosec{
+    width: 55%;
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#sec1{
+    height: 50vh;
+    background: url("img/girl3.jpg") no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+
+#btn-corner{
+    border: 2px solid white;
+    height: 85px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 15px;
+    margin-left: 50px;
+}
+
+.btn-sec{
+    border: none;
+    background: white;
+    color: black;
+    height: 65px;
+    width: 150px;
+}
+
+#sec2{
+    height: 60vh;
+    background-color: rgb(61, 13, 13);
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+#sec2 img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 0;
+    height: 300px;
+    object-fit: cover;
+    transform: scaleY(1.6) scaleX(1.6);
+    transform-origin: 60px 125px;
+}
+
+#value{
+    font-family: helvetica;
+    font-size: 150px;
+    margin-top: 60px;
+    text-align: center;
+    color: rgb(150, 130, 21);
+    font-weight: bold;
+    display: flex;
+    margin-bottom: 0;
+    margin-left: 120px;
+    position: relative;
+
+}
+
+#value-text{
+    margin-left: 120px;
+    margin-top: 25px;
+    color: #fff;
+    font-size: 30px;
+    text-align: left;
+    display: flex;
+    margin-bottom: 0;
+
+    
+}
+
+/*Section 3*/
+#section3{
+    height: 240vh;
+}
+
+/*First button in section 3*/
+.btn-dec{
+    margin: 60px auto;
+    height: 40px;
+    border: 1px solid rgb(39, 36, 36);
+    font-size: 20px;
+    width: 180px;
+    color: rgb(58, 53, 53);
+    font-family: helvetica;
+    display: block;
+}
+
+.items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 120px;
+    text-align: center;
+}
+
+
+/*Beginning of images in section 3*/
+/*First row*/
+/*Reference image owners*/
+.items-a{
+    background: url("img/girl5.jpg") no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 200px;
+
+}
+
+.items-b{
+    background: url("img/girl6.jpg") no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 200px;
+
+}
+
+.items-c{
+    background: url("img/girl7.jpg") no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 200px;
+
+}
+
+.items-d{
+    background: url("img/girl15.jpg") no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 200px;
+
+}
+
+/*Second row*/
+.items-e{
+    background: url("img/girl16.jpg") no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 200px;
+
+
+}
+
+.items-f{
+    background: url("img/girl8.jpg") no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 200px;
+
+
+}
+
+.items-g{
+    background: url("img/girl17.jpg") no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 200px;
+
+}
+
+.items-h{
+    background: url("img/girl11.jpg") no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 200px;
+
+}
+
+
+/*Third row*/
+.items-i{
+    background: url("img/girl9.jpg") no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 200px;
+
+}
+
+.items-j{
+    background: url("img/girl10.jpg") no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 200px;
+
+}
+
+.items-k{
+    background: url("img/girl12.jpg") no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 200px;
+
+}
+
+.items-l{
+    background: url("img/girl13.jpg") no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 200px;
+
+}
+
+.circle{
+    border-radius: 50px;
+    height: 25px;
+    width: 25px;
+    border: 2px solid #fff;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    padding: 2px;
+    display: block;
+    margin: 0 auto;
+}
+.hover{
+    height: 50px;
+    width: 200px;
+    margin-top: 250px;
+    background: rgba(0,0,0, 0.4);
+    transform: scaleY(0);
+
+}
+
+.boxy:hover .hover{
+    transform: scaleY(1);
+    padding: 5px 0 0 0;
+    margin-top: 245px;
+
+
+}
+.first{
+    margin-bottom: 0;
+}
+
+.second{
+    margin-top: 0;
+    font-weight: bold;
+}
+/*Last button in section 3*/
+.btn-item{
+    display: block;
+    margin: 0 auto;
+    border: 1px solid black;
+    height: 40px;
+    width: 150px;
+    border-radius: 25px;
+    background: #fff;
+
+}
+
+/*End of section 3*/
+
+#section4{
+    background: #fff;
+    height: 110vh;
+}
+
+.btn-blog{
+    display: block;
+    border-radius: 0;
+    margin: 40px auto 50px auto;
+    box-shadow: none;
+    border: 1px solid black;
+    width: 150px;
+    height: 40px;
+    background: #fff;
+
+
+}
+
+.blog-intro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 600px;
+
+}
+.box-a{
+    background: url("img/girl9.jpg") no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 25%;
+    position: relative;
+
+}
+
+.box-b{
+    background: url("img/girl10.jpg") no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 25%;
+    position: relative;
+
+
+
+}
+
+.box-c{
+    background: url("img/girl11.jpg") no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 25%;
+    position: relative;
+
+
+
+}
+.blog-head{
+    width: 100%;
+    height: 0px;
+    overflow: hidden;
+    margin-top: 500px;
+    background: rgba(0,0,0, 0.4);
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+
+.box:hover .blog-head{
+    margin-top: 400px;
+    height: 200px;
+}
+
+
+
+footer{
+    background: rgb(4, 53, 53);
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    margin-top: 30px;
+}
+h5{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+.gen-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 20vh;
+    flex-wrap: wrap;
+    margin: 0 10% 0 10%;
+    padding: 0 3%;
+}
+
+.mydiv1{
+    height: 40vh;
+    width: 20%;
+    margin-top: 60px;
+    line-height: 30px;
+}
+
+.two{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.mydiv2{
+    height: 40vh;
+    width: 30%;
+    margin-top: 60px;
+    line-height: 30px;
+
+}
+
+input::placeholder{
+    color: #fff;
+}
+.space{
+    background: transparent;
+    height: 30px;
+    width: 250px;
+    border: 1px solid #fff;
+    padding: 0 3px;
+}
+
+.submit{
+    margin-top: 10px;
+    border: none;
+    padding: 8px;
+    width: 80px;
+    background: #fff;
+}
+
+.mydiv3{
+    height: 40vh;
+    width: 20%;
+    margin-top: 60px;
+    line-height: 30px;
+    margin: 60px 0 0 15px;
+
+
+}
+
+.mydiv4{
+    width: 30%;
+    margin: -60px auto 0 auto;
+    text-align: center;
+    display: block;
+}
+
+.border-bottom{
+    border-bottom: 1px solid #fff;
+    width: 80%;
+    margin: 180px auto 10px auto;
+
+}
+
+footer p{
+    text-align: center;
+}
+
+/*Media queries for small devices start here*/
+@media screen and (max-width: 600px){
+main {
+    display: flex;
+    flex-direction: column;
+    height: 960vh;
+    width: 100%;
+    font-family: helvetica;
+
+}
+
+header{
+    height: 55px;
+    background: rgb(4, 53, 53);
+    font-family: helvetica;
+    padding: 0;
+
+
+}
+
+h4{
+    text-align: center;
+    color: #fff;
+    letter-spacing: 10px;
+    display: none;
+}
+
+.nav-contain{
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    justify-content: space-between;
+}
+
+
+.menu-a{
+    width: 10%;
+    color: #fff;
+    order: -1;
+    margin: 15px 15px;
+    font-size: 25px;
+    height: 50vh;
+}
+
+
+.navbar{
+    height: 100px;
+    background: rgba(4, 53, 53, 0.4);
+    position: absolute;
+    top: 55px;
+    z-index: 1;
+    font-size: 15px;
+    left: 0;
+    width: 100%;
+    transform: scaleX(0);
+
+}
+
+.navbar li{
+    padding: 5px;
+}
+
+.menu-a:hover .navbar{
+    transform: scaleY(1);
+}
+
+.menu-b{
+    width: 35%;
+    color: #fff;
+    letter-spacing: 5px;
+}
+
+.menu-c{
+    height: 10px;
+    width: 30%;
+    display: none;
+}
+
+
+.menu-d{
+    width: 30%;
+    font-size: 25px;
+    color: white;
+    margin: 15px 0;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    margin: 0 0px;
+}
+
+.badge:after{
+    content: attr(data-count);
+    background: lightcoral;
+    position: relative;
+    padding: 3px;
+    border-radius: 50%;
+    font-size: 10px;
+    text-align: center;
+    right: 8px;
+    bottom: 13px;
+    font-family: 'raleway';
+    border: none;
+
+}
+
+#section1{
+    height: 50vh;
+    position: relative;
+
+}
+
+#section1 img{
+    height: 50vh;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+
+}
+
+#section1 .image-text{
+    position: absolute;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'raleway';
+    color: white;
+    font-weight: 100;
+    width: 100%;
+    top: 90px;
+    text-transform: uppercase;
+    line-height: 15px;
+    
+}
+
+.image-text p:first-child{
+    font-size: 20px;
+    text-align: center;
+}
+
+
+span p{
+    display: inline-block;
+    margin: 0 2px;
+}
+
+.active, .li-item:hover{
+    background-color: #fff;
+}
+.li-item{
+    height: 5px;
+    width: 5px;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    margin: 0 5px;
+}
+
+#section2{
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'raleway';
+    background: purple;
+
+    
+}
+
+#aside{
+    width: 100%;
+    height: 90vh;
+    background-color: cornsilk;
+    justify-content: space-around;
+
+}
+#aside > p{
+    font-size: 15px;
+    letter-spacing: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(34, 31, 31);
+
+}
+#separate{
+    margin-bottom: 0;
+}
+
+#sep-again{
+    margin-top: 0;
+}
+
+.angle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 5px;
+    font-size: 45px;
+    font-weight: bolder;
+    color: rgb(34, 31, 31);
+
+}
+
+.fa-angle-right, 
+.fa-angle-left{
+    margin-top: 100px;
+}
+.angle img{
+    height: 250px;
+    width: 150px;
+}
+.btn{
+    width: 100px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 20px;
+    background: #fff;
+    box-shadow: 0 3px 12px rgba(0,0,0, 0.4); 
+}
+/*The two last two divs in section 2*/
+#twosec{
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#sec1{
+    height: 50vh;
+    background: url("img/girl3.jpg") no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+
+#btn-corner{
+    border: 2px solid white;
+    height: 55px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 15px;
+    margin-left: 20px;
+}
+
+.btn-sec{
+    border: none;
+    background: white;
+    color: black;
+    height: 35px;
+    width: 100px;
+}
+
+#sec2{
+    height: 60vh;
+    background-color: rgb(61, 13, 13);
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+}
+
+
+#sec2 img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 0;
+    height: 300px;
+    object-fit: cover;
+    transform: scaleY(1.6) scaleX(1.6);
+    transform-origin: 300px 125px;
+}
+
+#value{
+    font-family: helvetica;
+    font-size: 100px;
+    margin-top: 80px;
+    text-align: center;
+    color: rgb(150, 130, 21);
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-left: 70px;
+    position: relative;
+
+}
+
+#value-text{
+    margin-left: 20px;
+    margin-top: 25px;
+    color: #fff;
+    font-size: 30px;
+    text-align: left;
+    margin-bottom: 0;
+
+    
+}
+
+/*Section 3*/
+#section3{
+    height: 370vh;
+}
+
+/*First button in section 3*/
+.btn-dec{
+    margin: 60px auto 40px auto;
+    height: 40px;
+    border: 1px solid rgb(39, 36, 36);
+    font-size: 20px;
+    width: 180px;
+    color: rgb(58, 53, 53);
+    font-family: helvetica;
+    display: block;
+}
+
+.items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 0;
+    font-size: 13px;
+}
+
+
+/*Beginning of images in section 3*/
+/*First row*/
+/*Reference image owners*/
+.items-a{
+    background: url("img/girl5.jpg") no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 45%;
+    margin: 0 0 60px 0;
+
+}
+
+.items-b{
+    background: url("img/girl6.jpg") no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 45%;
+    margin: 0 0 60px 0;
+
+}
+
+.items-c{
+    background: url("img/girl7.jpg") no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 45%;
+    margin: 5px 0 60px 0;
+
+}
+
+.items-d{
+    background: url("img/girl15.jpg") no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 50%;
+    margin: 5px 0 60px 0;
+
+}
+
+/*Second row*/
+.items-e{
+    background: url("img/girl16.jpg") no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 45%;
+    margin: 5px 0 60px 0;
+
+
+}
+
+.items-f{
+    background: url("img/girl8.jpg") no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 45%;
+    margin: 5px 0 60px 0;
+
+
+}
+
+.items-g{
+    background: url("img/girl17.jpg") no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 45%;
+    margin: 5px 0 60px 0;
+
+}
+
+.items-h{
+    background: url("img/girl11.jpg") no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 45%;
+    margin: 5px 0 60px 0;
+
+}
+
+
+/*Third row*/
+.items-i{
+    background: url("img/girl9.jpg") no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 45%;
+    margin: 5px 0 60px 0;
+
+}
+
+.items-j{
+    background: url("img/girl10.jpg") no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 45%;
+    margin: 5px 0 60px 0;
+
+}
+
+.items-k{
+    background: url("img/girl12.jpg") no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 45%;
+    margin: 5px 0 60px 0;
+
+}
+
+.items-l{
+    background: url("img/girl13.jpg") no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 45%;
+    margin: 5px 0 60px 0;
+
+}
+
+.circle{
+    border-radius: 50px;
+    height: 25px;
+    width: 25px;
+    border: 2px solid #fff;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    padding: 2px;
+    display: block;
+    margin: 0 auto;
+}
+.hover{
+    height: 50px;
+    width: 100%;
+    margin-top: 250px;
+    background: rgba(0,0,0, 0.4);
+    transform: scaleY(0);
+
+}
+
+.boxy:hover .hover{
+    transform: scaleY(1);
+    padding: 5px 0 0 0;
+    margin-top: 245px;
+
+
+}
+.first{
+    margin-bottom: 0;
+}
+
+.second{
+    margin-top: 0;
+    font-weight: bold;
+}
+/*Last button in section 3*/
+.btn-item{
+    display: block;
+    margin: 40px auto 0 auto;
+    border: 1px solid black;
+    height: 40px;
+    width: 100px;
+    border-radius: 25px;
+    background: #fff;
+
+}
+
+/*End of section 3*/
+
+
+#section4{
+    height: 230vh;
+}
+
+.blog-intro{
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    flex-wrap: wrap;
+    margin: 0;
+
+}
+.box-a{
+    background: url("img/girl9.jpg") no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 70%;
+    position: relative;
+    margin: 20px auto;
+
+}
+
+.box-b{
+    background: url("img/girl10.jpg") no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 70%;
+    position: relative;
+    margin: 20px auto;
+
+
+
+}
+
+.box-c{
+    background: url("img/girl11.jpg") no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 70%;
+    position: relative;
+    margin: 20px auto;
+
+
+
+}
+.blog-head{
+    width: 100%;
+    height: 0px;
+    overflow: hidden;
+    margin-top: 400px;
+    background: rgba(0,0,0, 0.4);
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+
+.box:hover .blog-head{
+    margin-top: 300px;
+    height: 100px;
+}
+
+.btn-blog{
+    display: block;
+    border-radius: 0;
+    margin: 80px auto 30px auto;
+    box-shadow: none;
+    border: 1px solid black;
+    width: 150px;
+    height: 40px;
+    background: #fff;
+
+}
+
+
+
+
+
+footer{
+    background: rgb(4, 53, 53);
+    height: 120vh;
+    color: #fff;
+    margin-top: 30px;
+    width:100%;
+    text-align: center;
+
+}
+h5{
+    font-weight: bold;
+    font-size: 17px;
+    margin-bottom: 5px;
+    letter-spacing: 2px;
+}
+
+
+.gen-div{
+    display: flex;
+    flex-direction: row;
+    height: 120vh;
+    
+}
+
+.mydiv1{
+    height: 25vh;
+    width: 100%;
+    margin-top: 30px;
+    line-height: 30px;
+}
+
+.two{
+    display: flex;
+    flex-direction: column;
+}
+
+.mydiv2{
+    height: 20vh;
+    width: 100%;
+    line-height: 35px;
+
+}
+
+input::placeholder{
+    color: #fff;
+}
+.space{
+    background: transparent;
+    height: 30px;
+    width: 250px;
+    border: 1px solid #fff;
+    padding: 0 3px;
+}
+
+.submit{
+    margin-top: 10px;
+    border: none;
+    padding: 8px;
+    width: 80px;
+    background: #fff;
+}
+
+.mydiv3{
+    height: 20vh;
+    width: 100%;
+    line-height: 25px;
+    display: block;
+    margin: 60px auto 10px auto;
+
+}
+
+.mydiv4{
+    width: 100%;
+    height: 10vh;
+    margin-top: 10px;
+
+}
+.mydiv4 a{
+    display: block;
+    padding: 5px 0;
+}
+
+.border-bottom{
+    border-bottom: 1px solid #fff;
+    width: 80%;
+    margin:180px auto 10px auto;
+
+}
+
+footer p{
+    text-align: center;
+}
+
+}
+
+@media screen and (min-width: 992px){
+    .menu-a, .menu-b{
+        visibility: hidden;
+    }
+
+    #separate{
+        display: none;
+    }
+}
